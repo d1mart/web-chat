@@ -1,0 +1,48 @@
+body{
+    background: #F8BBFF
+}
+
+#income_msg{
+    background-color: white;
+    border: 1px solid;
+    height: 400px;
+    width: 800px;
+    margin-left: 400px;
+}
+
+#out_msg{
+    background-color: white;
+    border: 1px solid;
+    width: 800px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+#send_btn{
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 1102px;
+}
+
+#login{
+    position: fixed;
+    width: 170px;
+    height: 20px;
+    top: 40px;
+    left: 50px;
+}
+
+#go_chat{
+    position: fixed;
+    width: 70px;
+    height: 20px;
+    top: 80px;
+    left: 150px;
+}
+
+
+
+
+
