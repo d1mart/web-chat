@@ -1,0 +1,115 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background-color: #F8BBFF
+}
+#textBox{
+    position : absolute;
+    top :70%;
+    left: 30%;
+}
+#newName{
+    position : absolute;
+    top : 10%;
+    left: 80%;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+#sendButton{
+    position : absolute;
+    top :70%;
+    left: 33%;
+    width: 90px;
+    height: 25px;
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: #BDB76B;
+    outline: none;
+}
+.block{
+    width: 500px;
+    height: 400px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.msg-box{
+    position : absolute;
+    top :15%;
+    left: 30%;
+    margin-top: 1px;
+    margin: 5px;
+    width:400;
+    height:100px;
+    height: 260px;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+.input{
+    position : absolute;
+    top :45%;
+    left: 40%;
+    width: 400;
+    margin: 5px;
+}
+.user-name-box{
+    position : absolute;
+    top : 2%;
+    left: 80%;
+    border: 2px solid grey;
+    width:150;
+    margin-bottom: 5px;
+    height: 25px;
+    float:right;
+    padding: 3px;
+}
+.box{
+    border: 2px solid grey;
+    width: 240;
+    height: 25px;
+    padding: 3px;
+}
+.btn{
+    width: 150;
+    height: 25px;
+    margin-left: 250px;
+}
+.new-msg-box{
+    font-size: 15px;
+    min-height: 40px;
+    margin: 5px;
+    padding: 3px;
+    width: 368px;
+    height: auto;
+    float: right;
+    background-color: #BBFFF1;
+    border: 1px
+    
+}
+.user-name{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width:150;
+    float:left;
+}
+.error{
+    font-size: 15px;
+    min-height: 40px;
+    margin: 5px;
+    padding: 3px;
+    width: 368px;
+    height: auto;
+    float: right;
+    background-color: #FF7F7B;
+    border: 1px
+    
+}
