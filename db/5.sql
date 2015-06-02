@@ -1,0 +1,1 @@
+select name from users join messages on users.id=messages.user_id group by user_id having count(user_id) > 3;
